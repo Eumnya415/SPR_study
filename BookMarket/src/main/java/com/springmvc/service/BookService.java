@@ -1,0 +1,11 @@
+// 작성일 : 2023-12-18
+
+package com.springmvc.service;
+
+import com.springmvc.domain.Book;
+
+import java.util.List;
+
+public interface BookService {
+    List<Book> getAllBookList();
+}
